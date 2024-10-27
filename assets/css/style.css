@@ -25,7 +25,12 @@
     max-width: 1140px;
     margin: 0 auto;
 }
-
+.hints{
+    color: #726f6f;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+}
 
 /* ================ Common Css End Here =============== */
 
@@ -271,8 +276,8 @@ nav a{
 .summary_content h3{
     font-weight: 700;
     font-size: 35px;
-    line-height: 40px;
-    margin: 50px 0;
+    line-height: 70px;
+    margin: 80px 0;
     text-align: center;
 }
 
