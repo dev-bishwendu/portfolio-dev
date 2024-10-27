@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/*==========================
+global style
+==========================*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans" sans-serif;
+}
+
+.container{
+    width: auto;
+    margin-inline: 200px;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+h4{
+    padding-top: 40px;
+}
+
+span{
+    padding-bottom: 30px;
+}
+
+.line{
+    width: 450px;
+}
+
+h6{
+    text-align: center;
+}
+
+/*===========================
+section 1
+===========================*/
+
+.intro{
+    background-color: #FFF8F3;
+    padding: 50px;
+}
+
+.intro_2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.add_p{
+    text-align: center;
+}
+
+/*===========================
+section 2
+===========================*/
+
+.brief{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: white;
+}
+
+.card{
+    background-color: #FFFFFF;
+    margin-inline: 5px;
+}
+
+.brief_p{
+    text-align: start;
+    padding-top: 15px;
+}
+
+/*=============================
+section 3
+=============================*/
+
+.my_resume{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.card_p{
+    text-align: start;
+    padding-top: 20px;
+}
+
+.btn3{
+    background-color: #FD6E0A;
+    align-items: center;
+    border: none;
+    margin-top: 40px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/*=============================
+footer
+==============================*/
+
+.contact{
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-around;
+    min-height: 350px;
+}
+
+.contact_1{
+    margin-top: 100px;
+    margin-inline: 150px;
+}
+
+.contact_2{
+    margin-top: 100px;
+    margin-inline: 150px;   
+}
+
+.h2_1{
+    text-align: start;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+.p_1{
+    text-align: start;
+}
