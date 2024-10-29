@@ -1,155 +1,349 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
-/*==========================
-global style
-==========================*/
 
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Open Sans" sans-serif;
+    box-sizing: border-box;
+    font-family: 'open sans' sans-serif;
+}
+
+/*===========================================
+common css start here
+==========================================*/
+
+.para_1{
+    margin-top: 30px;
+}
+
+.call{
+    margin-left: 30px;
 }
 
 .container{
-    width: auto;
-    margin: 0px 20px;
-    padding: 50px 100px;
-    
+    max-width: 1140px;
+    margin: 30px 250px;
 }
 
 h2{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 30px;
     text-align: center;
-    padding: 20px;
 }
 
 p{
-    text-align: center;
+    color: #181818;
+    font-weight: 500;
+    font-size: 20px; 
 }
 
-h4{
-    padding-top: 40px;
+/*===========================================
+common css end here
+==========================================*/
+
+/*========================================
+hero section start here
+========================================*/
+
+.hero_section{
+    margin-inline-start: 150px;
 }
 
-span{
-    padding-bottom: 30px;
-}
-
-h6{
-    text-align: center;
-}
-
-/*===========================
-header
-===========================*/
-
-.head{
-    display: flex;
-    justify-content: space-around;
-}
-
-.header_b{
-    display: flex;
-    justify-content: center;
-}
-
-/*===========================
-section 1
-===========================*/
-
-.intro{
-    background-color: #FFF8F3;
-    padding: 50px 200px;
-}
-
-.intro_2{
+.nav{
     display: flex;
     justify-content: space-between;
-    padding-top: 15px;
-}
-
-.add_p{
-    text-align: center;
-}
-
-/*===========================
-section 2
-===========================*/
-
-.brief{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    background-color: white;
-    padding: 10px 200px;
-}
-
-.card{
-    background-color: #FFFFFF;
-    margin-inline: 5px;
-    box-shadow: 1px 1px 5px;
-    padding: 5px; 
-}
-
-.brief_p{
-    text-align: start;
-    padding-top: 15px;
-}
-
-/*=============================
-section 3
-=============================*/
-
-.my_resume{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 200px;
-}
-
-.card_p{
-    text-align: start;
-    padding-top: 20px;
-}
-
-.btn3{
-    background-color: #FD6E0A;
     align-items: center;
-    border: none;
-    margin-top: 40px;
-    padding: 5px 15px;
-    border-radius: 5px;
+    padding: 50px 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #474747;
+    font-weight: 650;
+}
+
+.nav a:hover{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: .4s ease-in-out;
+    background-color: #FD6E0A;
+    border-radius: 9px;
+    padding: 12px 24px; 
+}
+
+.btn{
+    background: #FD6E0A;
+    border-radius: 9px;
+    padding: 12px 24px;
+    color: #fff;
+    font-weight: 650;
+    font-size: 20px;
+    border: 1px #fff solid;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover{
+    background: transparent;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+    border: 1px solid #fff;
+}
+
+.hero_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF8F3 url('../asset/hero_bg.png') no-repeat bottom right;
+}
+
+.hero_text{
+   max-width: 50%;
+   padding-left: 20px;
+}
+
+.hero_text h1{
+    font-weight: 300;
+    font-weight: 700;
+    color: #474747;
+}
+
+.hero_name{
+    font-size: 70px;
+    line-height: 80px;
+    color: #181818;
+    font-weight: 600;
+}
+
+.hero_text p{
+    color: #181818;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.hero_img{
+    width: 450px;
+    height: 550px;
+}
+
+.cv{
+    background: #FD6E0A;
+    border-radius: 9px;
+    padding: 12px 24px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 650;
+    font-size: 20px;
+    border: 1px #fff solid;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cv:hover{
+    background: transparent;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+    border: 1px solid #fff;
+}
+
+.call{
+    background: #fff;
+    border-radius: 9px;
+    padding: 12px 24px;
+    margin-top: 20px;
+    color: #FD6E0A;
+    font-weight: 650;
+    font-size: 20px;
+    border: 1px #fff solid;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.call:hover{
+    background: transparent;
+    color: #FD6E0A;
+    transition: 0.4s ease-in-out;
+    border: 1px solid #fff;
+}
+
+/*====================================
+hero section end here
+=====================================*/
+
+/* side content of hero section*/
+
+.left_content{
+    position: absolute;
+    rotate: -90deg;
+    top: 300px;
+    left: -290px
+}
+
+.style_text{
+    font-size: 150px;
+    font-weight: 600;
+    color: #b0a9a941;
+    padding-left: 45px;
+}
+
+/*====================================
+about me section start here
+====================================*/
+
+.container_body{
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    min-height: 400px;
+}
+
+.body_1{
+    text-align: center;
+    padding-inline: 150px;
+    padding-top: 60px;
+}
+
+.body_2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+    text-align: center;
+}
+
+/*====================================
+about me section end here
+====================================*/
+
+/*====================================
+what i do section start here
+====================================*/
+
+.container_body1{
+    margin-top: 100px;
+}
+
+.do_body_1{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.do_body_2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+h3{
+    font-weight: 550;
+    font-size: 22px;
+    margin-bottom: 30px;
 }
 
 .card_1{
-    border-bottom: solid;
-    border-color:  lightgray;
-
+    text-align: start;
+    padding: 5px 10px;
+    box-shadow: 0px 10px 20px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-height: 250px;
 }
 
+/*===================================
+what I do section end here
+===================================*/
 
-/*=============================
-footer
-==============================*/
+/*==================================
+my resume section start here
+==================================*/
+
+.my_resume{
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edu{
+    padding-right: 15px;
+}
+
+.exp{
+    padding-left: 15px;
+}
+
+.card_2{
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.678);
+}
+
+.card_2 h4{
+    margin-top: 15px;
+}
+
+.card_2 p{
+    margin-top: 20px;
+}
+
+.btn3{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px 16px;
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff;
+    background-color: #FD6E0A;
+    border: #fff;
+    border-radius: 7px;
+}
+
+.btn3:hover{
+    background: transparent;
+    transition: 0.4s ease-in-out;
+    border: 1px solid #FFF8F3;
+    color: #FD6E0A;
+    cursor: pointer;
+}
+
+/*=====================================
+footer section start here
+=====================================*/
+
+.hero_footer{
+    background-color: #FFF8F3;
+    margin-top: 70px;
+    max-height: 500px;
+}
 
 .contact{
-    background-color: #FFF8F3;
     display: flex;
-    justify-content: space-around;
-    min-height: 350px;
-    padding: 120px 200px;
-
+    padding: 150px 250px;
 }
 
-.h3_1{
-    text-align: left;
-    padding-bottom: 20px;
-    font-size: 18px;
+.contact_1{
+    padding-right: 250px;
 }
 
-.p_1{
-    text-align: left;
+.form1{
+    padding: 5px;
 }
 
-.c_div{
-    padding-right: 40px;
+.btn4{
+    padding: 8px 16px;
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff;
+    background-color: #FD6E0A;
+    border: #fff;
+    border-radius: 7px;
+}
+
+.btn4:hover{
+    background: transparent;
+    transition: 0.4s ease-in-out;
+    border: 1px solid #FFF8F3;
+    color: #FD6E0A;
+    cursor: pointer;
 }
